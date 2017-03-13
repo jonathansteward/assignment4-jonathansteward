@@ -1,4 +1,4 @@
-//
+////
 #ifndef _LINKED_LIST_CPP_
 #define _LINKED_LIST_CPP_
 
