@@ -1,3 +1,4 @@
+//
 #ifndef _LINKED_LIST_CPP_
 #define _LINKED_LIST_CPP_
 
@@ -10,7 +11,8 @@
     * This operation provides strong exception safety.
     */
 template <typename T>
-LinkedList<T>::LinkedList() : mSize(0)
+LinkedList<T>::LinkedList()
+    : mSize(0)
     , mTail(new LinkedListNode<T>())
 {
 }
